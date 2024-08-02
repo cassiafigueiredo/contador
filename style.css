@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(40, 78, 78, 0.911); 
+    color: white;
+}
+
+div#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div#numero {
+    font-size: 10em;
+}
+
+
+.btns {
+    margin-inline: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(40, 78, 78, 0.911);
+    border: currentColor;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+}
